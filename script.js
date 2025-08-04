@@ -1,10 +1,12 @@
 function stringChop(str, size) {
   // your code here
 	size = Number(size)
-	const arr = []
+	const arr = [];
+	
 	if(str == "" || str == null){
-		return arr
+		return arr;
 	}
+	
 	if(str.length <= size){
 		arr.push(str)
 		return arr;
